@@ -57,9 +57,6 @@ body{
   justify-content: center;
   align-items: center;
 }
-.pancake{
-  width: 150px;
-}
 .second{
   display: flex;
   flex-direction: column;
