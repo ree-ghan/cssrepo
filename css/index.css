@@ -4,6 +4,10 @@ body{
   padding: 0;
   color: #e5e7eb;
 }
+a{
+  text-decoration: none;
+  color: antiquewhite;
+}
 .header{
   display: flex;
   justify-content: space-between;
@@ -49,13 +53,18 @@ body{
   border: none;
 }
 .image{
-  background-color: #f9faf8;
+ 
   height: 150px;
   width: 450px;
-  color: black;
+  
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.image img{
+  height: 200px;
+  width: 450px;
+  object-fit: cover;
 }
 .second{
   display: flex;
@@ -80,10 +89,17 @@ body{
   width: 145px;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+}
+.random img{
+   width: 145px;
+   object-fit: fill;
+   height: 130px;
+    border-radius: 20px;
 }
 .picture{
   border-radius: 20px;
-  border: solid;
+  /* border: solid; */
   height: 130px;
 }
 .descrip{
